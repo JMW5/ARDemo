@@ -51,7 +51,9 @@
   <body>
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: true'>
 		
-		<a-marker type="area"><a-box position='0 0 1' material='opacity: 1;'></a-box></a-marker>
+        <a-marker type="area"><a-box position='0 0 1' material='opacity: 1;'></a-box></a-marker>
+        
+        <a-entity obj-model="obj: url(./images/lambo.obj); mtl: url(./images/lambo.mtl)"></a-entity>
               <a-camera-static/>
 	</a-scene>
     
